@@ -1,0 +1,39 @@
+{
+  "name": "kap-recording-time",
+  "version": "1.0.0",
+  "description": "Show time elapsed while recording.",
+  "repository": "https://github.com/karaggeorge/kap-recording-time",
+  "author": {
+    "name": "George Karagkiaouris",
+    "email": "gkaragkiaouris2@gmail.com",
+    "url": "https://gkaragkiaouris.tech"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "kap-recording-time"
+  ],
+  "scripts": {
+    "test": "xo",
+    "build": "swift build --configuration=release && mv .build/release/kap-recording-time .",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "kap-plugin",
+    "time",
+    "elapsed",
+    "tray",
+    "status",
+    "bar"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "electron-util": "^0.13.1",
+    "execa": "^4.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.25.3"
+  }
+}
