@@ -1,6 +1,6 @@
 {
   "name": "kap-recording-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show time elapsed while recording.",
   "repository": "https://github.com/karaggeorge/kap-recording-time",
   "author": {
