@@ -35,7 +35,7 @@ const didStopRecording = () => {
 };
 
 const recordingTime = {
-	title: 'Show recording time',
+	title: 'Show Recording Time',
 	config,
 	willStartRecording,
 	didStartRecording,
