@@ -3,6 +3,10 @@
 
 > [Kap](https://github.com/wulkano/kap) plugin - Show time elapsed while recording
 
+## Demo
+
+<img src="demo.png">
+
 ## Install
 
 In the `Kap` menu, go to `Preferences…`, select the `Plugins` pane, find this plugin, and toggle it.
